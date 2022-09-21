@@ -4,7 +4,6 @@ import CountryCard from '../CountryCard/CountryCard';
 
 export default function Main() {
   const countries = useCountries();
-  console.log('countries', countries);
   return (
     <div>
       {countries.map((country) => {
